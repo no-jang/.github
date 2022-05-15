@@ -11,3 +11,13 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: no-jang
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Berlin
+          plugin_activity: yes
+          plugin_followup: yes
+          plugin_habits: yes
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_lines: yes
+          plugin_projects: yes
